@@ -17,7 +17,9 @@
     <!-- for FF, Chrome, Opera -->
 	<link rel="icon" type="image/png" href="img/icon.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="img/icon.png" sizes="32x32">
-<!-- for IE -->
+    <!-- Personal Stylesheets/Fonts -->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -46,12 +48,9 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <h1 id = "nav">Menu</h1>
                 </button>
-                <a class="navbar-brand" href="#"><img src = "img/logo.png" alt = "logo" style = "width: 150px; height: 140px;"</a>
+                <a class="navbar-brand" href="index.php"><img src = "img/logo.png" alt = "logo" style = "width: 150px; height: 140px;"</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -74,19 +73,14 @@
 
     <!-- Page Content -->
     <div class="container">
-
+ 	<div id = "wrapper">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>A Bootstrap Starter Template for IS219</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+                
             </div>
         </div>
         <!-- /.row -->
-
+	</div>
     </div>
     <!-- /.container -->
 
