@@ -18,10 +18,11 @@
 	<link rel="icon" type="image/png" href="img/icon.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="img/icon.png" sizes="32x32">
     <!-- Personal Stylesheets/Fonts -->
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+	
 
     <!-- Custom CSS -->
     <style>
@@ -48,9 +49,9 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <h1 id = "nav">Menu</h1>
+                   <h4> Menu </h4>
                 </button>
-                <a class="navbar-brand" href="index.php"><img src = "img/logo.png" alt = "logo" style = "width: 150px; height: 140px;"</a>
+                <a class="navbar-brand" href="index.php"><img src = "img/logo.png" alt = "logo" style = "width:150px; height: 140px; position: absolute; margin-left: 40%; top:-70px;"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
