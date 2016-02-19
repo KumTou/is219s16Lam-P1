@@ -1582,7 +1582,7 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  background-image: url("img/indexbg.png");
+  background-image: url("../img/indexbg.png");
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
