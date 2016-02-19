@@ -1225,7 +1225,7 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 h1 small,
@@ -1267,7 +1267,7 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 50px;
 }
 h2,
 .h2 {
@@ -4594,7 +4594,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
+  
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
