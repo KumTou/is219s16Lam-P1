@@ -40,7 +40,14 @@
     <![endif]-->
 
 </head>
-
+<script> 
+$(document).ready(function(){
+	$("#button").click(function(){
+		$("#menu").hide()
+		$("#nav").show()
+	});
+});
+</script>
 <body>
 
     <!-- Navigation -->
@@ -48,14 +55,14 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                   <h4> Menu </h4>
+                <button id = "button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                   <h4 id ="menu"> Menu </h4>
                 </button>
                 <a class="navbar-brand" href="index.php"><img src = "img/logo.png" alt = "logo" style = "width:150px; height: 140px; position: absolute; margin-left: 40%; top:-70px;"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul id = "nav"class="nav navbar-nav">
                     <li>
                         <a href="about.html">About</a>
                     </li>
@@ -88,10 +95,10 @@
 
     <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
-
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+	
 </body>
 
 </html>
