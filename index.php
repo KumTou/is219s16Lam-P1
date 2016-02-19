@@ -12,8 +12,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bare - Start Bootstrap Template (for IS219)</title>
-
+    <title>Sabrina Lam's Website</title>
+    <!-- Icon -->
+    <!-- for FF, Chrome, Opera -->
+	<link rel="icon" type="image/png" href="img/icon.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="img/icon.png" sizes="32x32">
+<!-- for IE -->
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -47,19 +51,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#"><img src = "img/logo.png" alt = "logo" style = "width: 150px; height: 140px;"</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="resume.html">Resume</a>
                     </li>
                 </ul>
             </div>
