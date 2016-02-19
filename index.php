@@ -19,7 +19,7 @@
 	<link rel="icon" type="image/png" href="img/icon.png" sizes="32x32">
 <!-- for IE -->
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <style>
