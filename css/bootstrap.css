@@ -1581,8 +1581,7 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.container {
-  background-image: url("../img/indexbg.png");
+.container 
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
